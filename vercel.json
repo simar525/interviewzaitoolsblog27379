@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/https:interviewz.aitools.blog",       "destination": "/https:beta.ai-interviewz.one",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://beta.ai-interviewz.one/$1"
- }
+    }
   ]
 }
+    
